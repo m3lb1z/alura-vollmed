@@ -1,8 +1,8 @@
 package dev.emrx.med.api.domain.consulta.desafio;
 
 import dev.emrx.med.api.domain.consulta.DatosCancelamientoConsulta;
-import dev.emrx.med.api.persistence.Consulta;
-import dev.emrx.med.api.repository.ConsultaRepository;
+import dev.emrx.med.api.model.entity.Consulta;
+import dev.emrx.med.api.model.repository.ConsultaRepository;
 import jakarta.validation.ValidationException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

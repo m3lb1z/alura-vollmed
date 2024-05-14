@@ -1,11 +1,10 @@
 package dev.emrx.med.api.repository;
 
 import dev.emrx.med.api.domain.medico.Especialidad;
-import dev.emrx.med.api.persistence.Consulta;
-import dev.emrx.med.api.persistence.Direccion;
-import dev.emrx.med.api.persistence.Medico;
-import dev.emrx.med.api.persistence.Paciente;
-import org.assertj.core.api.Assertions;
+import dev.emrx.med.api.model.entity.Consulta;
+import dev.emrx.med.api.model.entity.Medico;
+import dev.emrx.med.api.model.entity.Paciente;
+import dev.emrx.med.api.model.repository.MedicoRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +19,6 @@ import java.time.LocalDateTime;
 import java.time.temporal.TemporalAdjusters;
 
 import static org.assertj.core.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.*;
 
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)

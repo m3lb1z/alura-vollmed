@@ -1,4 +1,4 @@
-package dev.emrx.med.api.service;
+package dev.emrx.med.api.model.service;
 
 import dev.emrx.med.api.domain.consulta.DatosAgendarConsulta;
 import dev.emrx.med.api.domain.consulta.DatosCancelamientoConsulta;
@@ -6,15 +6,14 @@ import dev.emrx.med.api.domain.consulta.DatosDetalleConsulta;
 import dev.emrx.med.api.domain.consulta.desafio.ValidadorCancelamientoDeConsulta;
 import dev.emrx.med.api.domain.consulta.validacion.ValidadorDeConsultas;
 import dev.emrx.med.api.infra.errores.ValidacionDeIntegridad;
-import dev.emrx.med.api.persistence.Consulta;
-import dev.emrx.med.api.persistence.Medico;
-import dev.emrx.med.api.repository.ConsultaRepository;
-import dev.emrx.med.api.repository.MedicoRepository;
-import dev.emrx.med.api.repository.PacienteRepository;
+import dev.emrx.med.api.model.entity.Consulta;
+import dev.emrx.med.api.model.entity.Medico;
+import dev.emrx.med.api.model.repository.MedicoRepository;
+import dev.emrx.med.api.model.repository.ConsultaRepository;
+import dev.emrx.med.api.model.repository.PacienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 @Service

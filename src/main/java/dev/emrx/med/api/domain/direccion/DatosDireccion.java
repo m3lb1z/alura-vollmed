@@ -1,6 +1,6 @@
 package dev.emrx.med.api.domain.direccion;
 
-import dev.emrx.med.api.persistence.Direccion;
+import dev.emrx.med.api.model.entity.Direccion;
 import jakarta.validation.constraints.NotBlank;
 
 public record DatosDireccion(

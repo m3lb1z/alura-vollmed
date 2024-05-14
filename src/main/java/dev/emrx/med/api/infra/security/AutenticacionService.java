@@ -1,6 +1,6 @@
 package dev.emrx.med.api.infra.security;
 
-import dev.emrx.med.api.repository.UsuarioRepository;
+import dev.emrx.med.api.model.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

@@ -1,4 +1,4 @@
-package dev.emrx.med.api.persistence;
+package dev.emrx.med.api.model.entity;
 
 import dev.emrx.med.api.domain.direccion.DatosDireccion;
 import jakarta.persistence.Embeddable;

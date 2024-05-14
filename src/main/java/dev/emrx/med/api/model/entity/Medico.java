@@ -1,4 +1,4 @@
-package dev.emrx.med.api.persistence;
+package dev.emrx.med.api.model.entity;
 
 import dev.emrx.med.api.domain.medico.DatosActualizarMedico;
 import dev.emrx.med.api.domain.medico.DatosRegistroMedico;

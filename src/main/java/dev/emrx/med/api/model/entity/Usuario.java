@@ -1,4 +1,4 @@
-package dev.emrx.med.api.persistence;
+package dev.emrx.med.api.model.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

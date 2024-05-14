@@ -1,9 +1,8 @@
-package dev.emrx.med.api.controller;
+package dev.emrx.med.api.web.controller;
 
 import dev.emrx.med.api.domain.consulta.DatosAgendarConsulta;
 import dev.emrx.med.api.domain.consulta.DatosCancelamientoConsulta;
-import dev.emrx.med.api.domain.consulta.DatosDetalleConsulta;
-import dev.emrx.med.api.service.AgendaDeConsultaService;
+import dev.emrx.med.api.model.service.AgendaDeConsultaService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.transaction.Transactional;

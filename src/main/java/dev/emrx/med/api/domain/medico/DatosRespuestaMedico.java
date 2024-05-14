@@ -1,7 +1,7 @@
 package dev.emrx.med.api.domain.medico;
 
 import dev.emrx.med.api.domain.direccion.DatosDireccion;
-import dev.emrx.med.api.persistence.Medico;
+import dev.emrx.med.api.model.entity.Medico;
 
 public record DatosRespuestaMedico(
         Long id,

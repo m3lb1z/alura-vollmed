@@ -1,11 +1,11 @@
-package dev.emrx.med.api.controller;
+package dev.emrx.med.api.web.controller;
 
 import dev.emrx.med.api.domain.medico.DatosActualizarMedico;
 import dev.emrx.med.api.domain.medico.DatosRegistroMedico;
 import dev.emrx.med.api.domain.medico.DatosListarMedico;
 import dev.emrx.med.api.domain.medico.DatosRespuestaMedico;
-import dev.emrx.med.api.persistence.Medico;
-import dev.emrx.med.api.repository.MedicoRepository;
+import dev.emrx.med.api.model.entity.Medico;
+import dev.emrx.med.api.model.repository.MedicoRepository;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;

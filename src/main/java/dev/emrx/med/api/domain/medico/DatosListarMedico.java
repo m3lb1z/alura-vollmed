@@ -1,6 +1,6 @@
 package dev.emrx.med.api.domain.medico;
 
-import dev.emrx.med.api.persistence.Medico;
+import dev.emrx.med.api.model.entity.Medico;
 
 public record DatosListarMedico(
         Long id,

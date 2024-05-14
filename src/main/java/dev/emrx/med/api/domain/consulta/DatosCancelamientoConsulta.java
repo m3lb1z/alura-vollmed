@@ -1,7 +1,7 @@
 package dev.emrx.med.api.domain.consulta;
 
 
-import dev.emrx.med.api.persistence.MotivoCancelamiento;
+import dev.emrx.med.api.model.entity.MotivoCancelamiento;
 
 public record DatosCancelamientoConsulta(
         Long idConsulta,

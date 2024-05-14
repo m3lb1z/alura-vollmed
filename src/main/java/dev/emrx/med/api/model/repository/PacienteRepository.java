@@ -1,6 +1,6 @@
-package dev.emrx.med.api.repository;
+package dev.emrx.med.api.model.repository;
 
-import dev.emrx.med.api.persistence.Paciente;
+import dev.emrx.med.api.model.entity.Paciente;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

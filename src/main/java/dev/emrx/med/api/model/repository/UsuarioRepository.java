@@ -1,6 +1,6 @@
-package dev.emrx.med.api.repository;
+package dev.emrx.med.api.model.repository;
 
-import dev.emrx.med.api.persistence.Usuario;
+import dev.emrx.med.api.model.entity.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Repository;

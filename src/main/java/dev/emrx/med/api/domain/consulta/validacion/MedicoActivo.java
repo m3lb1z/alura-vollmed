@@ -1,7 +1,7 @@
 package dev.emrx.med.api.domain.consulta.validacion;
 
 import dev.emrx.med.api.domain.consulta.DatosAgendarConsulta;
-import dev.emrx.med.api.repository.MedicoRepository;
+import dev.emrx.med.api.model.repository.MedicoRepository;
 import jakarta.validation.ValidationException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

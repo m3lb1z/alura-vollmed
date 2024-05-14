@@ -1,6 +1,6 @@
 package dev.emrx.med.api.domain.consulta;
 
-import dev.emrx.med.api.persistence.Consulta;
+import dev.emrx.med.api.model.entity.Consulta;
 
 import java.time.LocalDateTime;
 

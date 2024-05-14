@@ -1,7 +1,6 @@
-package dev.emrx.med.api.repository;
+package dev.emrx.med.api.model.repository;
 
-import dev.emrx.med.api.domain.medico.Especialidad;
-import dev.emrx.med.api.persistence.Medico;
+import dev.emrx.med.api.model.entity.Medico;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -1,4 +1,4 @@
-package dev.emrx.med.api.persistence;
+package dev.emrx.med.api.model.entity;
 
 public enum MotivoCancelamiento {
     PACIENTE_DESISTIO,

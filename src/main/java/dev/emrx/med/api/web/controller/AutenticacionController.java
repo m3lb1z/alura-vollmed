@@ -1,9 +1,9 @@
-package dev.emrx.med.api.controller;
+package dev.emrx.med.api.web.controller;
 
 import dev.emrx.med.api.domain.usuario.DatosAutenticacionUsuario;
 import dev.emrx.med.api.infra.security.DatosJWTToken;
 import dev.emrx.med.api.infra.security.TokenService;
-import dev.emrx.med.api.persistence.Usuario;
+import dev.emrx.med.api.model.entity.Usuario;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

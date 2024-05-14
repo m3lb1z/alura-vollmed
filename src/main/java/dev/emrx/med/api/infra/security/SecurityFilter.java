@@ -1,6 +1,6 @@
 package dev.emrx.med.api.infra.security;
 
-import dev.emrx.med.api.repository.UsuarioRepository;
+import dev.emrx.med.api.model.repository.UsuarioRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

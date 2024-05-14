@@ -1,4 +1,4 @@
-package dev.emrx.med.api.controller;
+package dev.emrx.med.api.web.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
