@@ -1,0 +1,6 @@
+spring:
+  profile.active: dev, test, prod
+  application:
+    name: alura-voll-clinica
+  profiles:
+    active: dev
